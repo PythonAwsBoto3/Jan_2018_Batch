@@ -1,0 +1,30 @@
+vim editory instruction:
+
+step1: vim demo.txt  (then hit enter)
+step2: blank window will be open (hit on i letter)
+step3: esc :w  (to save data)    esc :q  (quit)
+		esc :wq (to save quit)
+
+
+
+TYPES OF shells:
+ cat /etc/shells
+
+What is the shell you are using?
+
+echo $SHELL
+
+to move form one shell to another:
+cmd line: sh
+cmd line: bash
+
+
+=================================================================
+Writing shell script?
+step1: you should know your shell type first (echo $SHELL)
+step2: vim file_name.sh  (always very firt line is: #!/bin/bash )
+step3: write your script with your required commands
+step4: save it
+step5: chmod +x file_name.sh
+step6: ./file_name.sh
+=================================================================
