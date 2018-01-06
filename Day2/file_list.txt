@@ -1,0 +1,5 @@
+file_list.txt
+input_output.sh
+invert_and_home_symb.sh
+quotations.sh
+variable.sh
