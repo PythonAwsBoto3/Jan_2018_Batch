@@ -1,0 +1,18 @@
+quations:
+
+" 
+'
+`
+
+special character:
+
+echo command will workd for \n \t \b and \r with -e option
+
+
+
+variable(number,string): based on data
+
+who defined variable:
+	local/user defined variable
+	global variable (defined by OS,these are always in CAPITALS)
+Note: dont define userdefined variables as capitals.
