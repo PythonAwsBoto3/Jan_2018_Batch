@@ -1,0 +1,51 @@
+stdin - 0
+stdout -1
+stderr -2
+
+==============
+
+anycommand   1>anyfile.txt   2>anyerrfile.txt   (output will store into anyfile.txt  and error will story into anyerrfile.txt)
+
+anycommand 1>anyfile.txt  2>&1  (both output and error will sotre into anyfile.txt only)
+
+=================================================================================================================================
+command line arguments:
+
+script_name value1 value2 value3 
+($0          $1     $2     $3 )
+
+
+$# --> No of command line argumetns/parameters(without considering script name)
+$* --> all command line arguments/parameters (all values )
+========================================================
+
+operaions on string:
+===================
+let 
+x="Ramu"
+to find length:  echo "${#x}"
+
+To store length of variable into new variable:
+y="rahul"
+n=${#y}
+
+To extarct a srting:(part of a string)
+name="Valaxy Info Tech pvt Ltd"
+echo "$name"   or echo "${name}"  or echo "${name:0}
+echo "${name:2}   (it will print from third position)
+echo "${name:4:6}  (from 5th position 6 charcters)
+
+
+To replace part of a string:
+echo "${name/Info/conform}"
+
+
+To add string:
+
+x="hi"
+y="bye"
+z="$x $y"
+echo "$z"
+
+
+
