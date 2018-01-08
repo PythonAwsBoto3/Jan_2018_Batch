@@ -1,0 +1,51 @@
+CONDITIONAL STATEMENTS:
+
+Used to execute some set of commands based on condition.
+
+
+First form of if conditon:
+===============================
+if [ condition ]
+then
+    ls
+    pwd
+    echo "we are in if condition"
+
+
+fi
+
+==============================
+2 nd form of if condition: (if else )
+
+
+if [ condition ] 
+then
+   command1
+   command2
+
+else
+
+   command5
+   command6
+
+fi
+==============================
+3 rd form of if condition:
+
+if [ conditon ]
+then
+   echo "I am in first if block"
+   echo "now i know about if block"
+elif [ condition ]
+then
+   echo "I am in elif block"
+elif [ condition ]
+then
+    ls
+    pwd
+else
+   echo "i am in else block"
+
+
+
+fi
