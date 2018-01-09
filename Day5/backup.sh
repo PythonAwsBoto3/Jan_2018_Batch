@@ -54,7 +54,7 @@ then
   echo "successfully copied"
 else
   exit 4
-
+fi
 echo "Now going to delete old log file"
 
 rm -rf  ${source_location}/*
@@ -68,16 +68,16 @@ fi
 
 echo "Going to start server ........."
 
-#/usr/local/webserver/bin/httpd -k start
+/usr/local/webserver/bin/httpd -k start
 
-#sleep 10
+sleep 10
 
-#no_of_lines=`ps -ef | grep httpd | wc -l`
-#echo "no of lines are: $no_of_lines"
-#if [ $no_of_lines -ge 6 ]
-#then
-#   echo "succefully started apache server"
-#else
-#   echo "unable to start apache server"
-#   echo "start it manually"
-#fi
+no_of_lines=`ps -ef | grep httpd | wc -l`
+echo "no of lines are: $no_of_lines"
+if [ $no_of_lines -ge 6 ]
+then
+   echo "succefully started apache server"
+else
+   echo "unable to start apache server"
+   echo "start it manually"
+fi
