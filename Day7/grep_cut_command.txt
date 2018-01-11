@@ -1,0 +1,45 @@
+grep COMMAND BASICS:
+=======================================================================================
+grep "time" first.sh
+grep "bash" first.sh
+grep "bash" first.sh third.sh
+grep "BASH" first.sh
+grep -i "BaSh" first.sh
+grep -n "time" first.sh
+grep -n "for" first.sh third.sh
+grep -n "while" first.sh third.sh
+grep "time" first.sh
+grep -v "time" first.sh
+grep -v "time" first.sh >> tex.txt
+
+====================================================================================
+cut command: used to get columns,fields
+
+cut [option] <file_name>
+
+opeions: -c  used to get only columns
+	 -f used to get fields/words based on delimiter (-d)
+
+
+ cut -c1 cut.txt (only first column characters from all lines)
+ cut -c4 cut.txt
+ cut -c1,4 cut.txt(only first and 4th clolumns)
+ cut -c1-4 cut.txt ( 1 to 4 )
+ cut -c1- cut.txt ( 1 to enidng)
+ cut -c3- cut.txt (3 to ending)
+ cut -c-3 cut.txt (starting to 3 cloumns)
+
+
+for fields:
+
+ cat cut.txt
+ cut -d' ' -f2 cut.txt
+ cut -d' ' -f2,4 cut.txt
+ cut -d' ' -f2,3 cut.txt
+ cut -d' ' -f1-3 cut.txt
+ cut -d' ' -f1- cut.txt
+ cut -d' ' -f-3 cut.txt
+
+
+
+Cut defalut delimiter is tab_space, if you want to work with other than tab_space delimiter then you should use -d option
