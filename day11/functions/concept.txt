@@ -1,0 +1,33 @@
+Functions:
+are used to reuse the code
+
+
+syntax:
+
+Two way:
+
+First way:
+function fun_name(){
+
+
+
+}
+
+Second way:
+
+fun_name() {
+
+
+}
+
+
+Scope of a variable:
+
+by default all variables are global variables
+To make any variable as local use local keyword.
+ex; local x=4  (we need to define local variables only inside a fun)
+
+
+
+
+Note: We need to define called funtion before calling function in scripting laguage.
