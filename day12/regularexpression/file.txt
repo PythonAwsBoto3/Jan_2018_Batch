@@ -1,0 +1,9 @@
+Root is the owner of this system
+root is powerfull user
+all usres are under control of root
+root root
+
+
+
+
+root

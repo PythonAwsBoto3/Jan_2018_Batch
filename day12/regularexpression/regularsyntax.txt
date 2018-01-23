@@ -1,0 +1,20 @@
+[rR]oot ==>root Root
+
+
+[rxyz]l ==> rl xl yl zl
+[xyz]mn[pq] ==> xmnp xmnq ymnp ymnq zmnp zmnq
+
+[a-c]mn ==> amn bmn cmn
+[b-da-c]lm ==> balm calm dalm bblm cblm dblm bclm cclm dclm
+
+^ramu ==> starting word must be ramu
+raju& ==> ending word must be raju
+
+. ==> any one letter/character
+
+
+? ==> one or zero times
+
+* ==? zero or more times
+
+
